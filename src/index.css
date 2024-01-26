@@ -10,7 +10,7 @@
 
 :root {
   background-color: #FFFBEB;
-  cursor: url('./src/assets/pointer.png'), auto;
+  cursor: url('/src/assets/pointer.png'), auto;
   overflow-x: hidden;
 }
 a {
