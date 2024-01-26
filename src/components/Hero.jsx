@@ -17,11 +17,7 @@ const Hero = () => {
       </div>
       <div className='px-12 flex items-center'>
       Enthusiastic Python developer, seamlessly blending creativity.<br/> Exploring the nuances of frontend web development. I'm eager <br/> to turn innovative ideas into exceptional digital experiences.
-      </div>
-      {/* <div className={`para flex-1 flex ${styles.flexCenter} `}>
-      Enthusiastic Python developer, seamlessly blending creativity.<br/> Exploring the nuances of frontend web development. I'm eager <br/> to turn innovative ideas into exceptional digital experiences.   
-      </div> */}
-      
+      </div>      
     </section>
   )
 }
