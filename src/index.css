@@ -41,7 +41,7 @@ button {
 .sub{
   color: #383838;
   font-family: Outfit;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-style: normal;
   font-weight: 600;
   line-height: normal;
