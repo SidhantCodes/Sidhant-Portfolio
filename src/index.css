@@ -10,6 +10,13 @@
 
 :root {
   background-color: white;
+  cursor: url('src/assets/pointer.png'), auto;
+}
+a {
+  cursor: url('src/assets/link.png'), pointer;
+}
+button {
+  cursor: url('src/assets/link.png'), pointerz;
 }
 
 * {
