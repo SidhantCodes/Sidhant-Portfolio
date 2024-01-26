@@ -29,3 +29,21 @@
   font-family: Outfit;
   font-weight: 800;
 }
+
+.sub{
+  color: #383838;
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.para{
+  color: #000;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
