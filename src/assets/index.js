@@ -4,7 +4,7 @@ import github from "./GitHub.png";
 import instagram from "./Instagram.png"
 import linkedin from "./Linkedin.png"
 import resume from "./resume.pdf"
-import menu from "./menu.png"
+import menu from "./Menu.png"
 import close from "./close.png"
 export{
   logo,
