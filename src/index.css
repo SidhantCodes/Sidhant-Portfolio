@@ -14,10 +14,10 @@
   overflow-x: hidden;
 }
 a {
-  cursor: url('src/assets/link.png'), pointer;
+  cursor: url('./src/assets/link.png'), pointer;
 }
 button {
-  cursor: url('src/assets/link.png'), pointer;
+  cursor: url('./src/assets/link.png'), pointer;
 }
 
 * {
