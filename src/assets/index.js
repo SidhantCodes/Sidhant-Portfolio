@@ -1,6 +1,14 @@
 import logo from "./sidhantmishra.png";
 import title from "./title.png";
+import github from "./GitHub.png";
+import instagram from "./Instagram.png"
+import linkedin from "./Linkedin.png"
+import resume from "./resume.pdf"
 export{
   logo,
   title,
+  github,
+  instagram, 
+  linkedin,
+  resume,
 };
