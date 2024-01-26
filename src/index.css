@@ -11,6 +11,7 @@
 :root {
   background-color: white;
   cursor: url('src/assets/pointer.png'), auto;
+  overflow-x: hidden;
 }
 a {
   cursor: url('src/assets/link.png'), pointer;
