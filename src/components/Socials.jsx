@@ -1,5 +1,5 @@
 import React from 'react'
-import { github, instagram, linkedin, resume } from '../assets'
+import { github, instagram, linkedin} from '../assets'
 import { motion } from "framer-motion"
 
 const Socials = () => {
