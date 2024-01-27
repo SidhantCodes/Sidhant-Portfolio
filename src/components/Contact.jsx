@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 const Contact = () => {
   return (
     <section id='contact' className='mt-60 mb-36'>
-      <div className={`flex flex-col px-12 w-screen items-center`}>
-        <h2 className='head text-[28px] sm:text-[60px]'>Interested in working together?</h2>
+      <div className={`flex flex-col px-12 w-screen items-center justify-center`}>
+        <h2 className='head px-12 flex-wrap text-[32px] text-center sm:text-[60px]'>Interested in working together?</h2>
         <p className='para2 px-12 flex-wrap pt-6 text-[15px] sm:text-[28px]'>Let's connect and kickstart the journey of transforming your ideas into tangible, <br /> innovative solutions! Reach out to get started.</p>
         <h1 className='bigtitle text-[50px] sm:text-[92px] mt-5'>sidhantmishra</h1>
         <div className={`flex gap-5 mt-1`}>
