@@ -87,7 +87,34 @@ button {
   line-height: normal;
 }
 
+.head{
+  color: #000;
+  font-family: Outfit;
+  /* font-size: 60px; */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+}
 
+.para2{
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  /* font-size: 28px; */
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bigtitle{
+  color: #000;
+  font-family: Smooch;
+  /* font-size: 92px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 @-webkit-keyframes slide-top {
   0% {
