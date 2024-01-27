@@ -15,7 +15,7 @@ const Hero = () => {
         </div>  
         <p className={`sub max-w-[500px] text-[13.3px] sm:max-w-[800px] mt-6 px-12 sm:text-[25px]`}> Python Developer | Front-end Developer | Graphic Designer </p>
       </div>
-      <div className='px-[3rem] pt-20 text-[13px] justify-center sm:flex items-center sm:text-[15px]'>
+      <div className='text-gray-800 px-[3rem] pt-20 text-[13px] justify-center sm:flex items-center sm:text-[15px]'>
       Enthusiastic Python developer, seamlessly blending creativity.<br/> Exploring the nuances of development. I'm eager to turn <br />innovative ideas into exceptional digital experiences.
       </div>      
     </section>

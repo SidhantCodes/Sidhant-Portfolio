@@ -14,10 +14,10 @@ const Socials = () => {
 
     
       <div className="flex mt-12 sm:mt-0 sm:flex justify-center gap-8 ">
-        <a href="https://drive.google.com/file/d/1d49b4HndYjiOGZintf0QuPhp5afGixtH/view?usp=sharing" className="bg-black text-white py-2 px-4 rounded-xl h-[40px] hover:bg-gray-800" target="_blank">
+        <a href="https://drive.google.com/file/d/1d49b4HndYjiOGZintf0QuPhp5afGixtH/view?usp=sharing" className="bg-black text-[#FFFBEB] py-2 px-4 rounded-xl h-[40px] hover:bg-gray-800" target="_blank">
           Resume
         </a>
-        <a href="mailto:mishrasidhant01@gmail.com" className="bg-black text-white py-2 px-4 rounded-xl h-[40px] hover:bg-gray-800">
+        <a href="mailto:mishrasidhant01@gmail.com" className="bg-black text-[#FFFBEB] py-2 px-4 rounded-xl h-[40px] hover:bg-gray-800">
           Email
         </a>
       </div>
