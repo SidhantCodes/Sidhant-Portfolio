@@ -1,46 +1,47 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
   return (
     <section id='skills' className='mt-8'>
-      <div className={`w-screen flex justify-center`}>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} className={`w-screen flex justify-center`}>
         <h2 className={`skills`}>Skills</h2>
-      </div>
-      <div className='px-12'>
+      </motion.div>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} className='px-12'>
         <h4 className='skillsub mt-[50px]'>LANGUAGES</h4>
         <div className={`flex py-7 gap-7`}>
-          <div className="badge badge-outline badge-neutral badge-lg">Python</div>
-          <div className="badge badge-outline badge-neutral badge-lg">JavaScript</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Java</div>
-          <div className="badge badge-outline badge-neutral badge-lg">C/C++</div>
-          <div className="badge badge-outline badge-neutral badge-lg">HTML/CSS</div>
-          <div className="badge badge-outline badge-neutral badge-lg">R</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Bash</div>
-          <div className="badge badge-outline badge-neutral badge-lg">SQL</div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Python</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">JavaScript</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Java</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">C/C++</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">HTML/CSS</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">R</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Bash</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">SQL</motion.div>
         </div>
-      </div>
-      <div className='px-12'>
+      </motion.div>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} className='px-12'>
         <h4 className='skillsub mt-[30px]'>FRAMEWORKS</h4>
         <div className={`flex py-7 gap-7`}>
-          <div className="badge badge-outline badge-neutral badge-lg">Numpy</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Pandas</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Matplotlib</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Seaborn</div>
-          <div className="badge badge-outline badge-neutral badge-lg">ReactJs</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Angular</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Tailwind CSS</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Bootstrap</div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Numpy</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Pandas</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Matplotlib</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Seaborn</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">ReactJs</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Angular</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Tailwind CSS</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Bootstrap</motion.div>
         </div>
-      </div>
-      <div className='px-12'>
+      </motion.div>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} className='px-12'>
         <h4 className='skillsub mt-[30px]'>PLATFORMS</h4>
         <div className={`flex py-7 gap-7`}>
-          <div className="badge badge-outline badge-neutral badge-lg">Windows</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Linux</div>
-          <div className="badge badge-outline badge-neutral badge-lg">Web</div>
-          <div className="badge badge-outline badge-neutral badge-lg">GitHub</div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Windows</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Linux</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">Web</motion.div>
+          <motion.div whileHover={{scale:1.2, transitionDelay:0.5}} className="badge badge-outline badge-neutral badge-lg">GitHub</motion.div>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }
