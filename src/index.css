@@ -22,8 +22,11 @@ button {
 
 * {
   scroll-behavior: smooth;
+  
 }
-
+&::-webkit-scrollbar{
+  width: 0%;
+}
 .navbar{
   color: #000;
   font-family: Outfit;
