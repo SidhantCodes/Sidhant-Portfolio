@@ -68,6 +68,27 @@ button {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+.skills{
+  color: #000;
+  font-family: Outfit;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.skillsub{
+  color: #000;
+  font-family: Outfit;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
