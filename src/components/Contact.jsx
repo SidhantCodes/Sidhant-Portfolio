@@ -14,7 +14,6 @@ const Contact = () => {
           <a href="mailto:mishrasidhant01@gmail.com"><motion.img whileHover={{ scale: [null, 1.1, 1.1] }} src={mail} alt="" className={`h-[35px] w-[35px] sm:w-[55px] sm:h-[55px]`} /></a>
         </div>
       </div>
-
     </section>
   )
 }
