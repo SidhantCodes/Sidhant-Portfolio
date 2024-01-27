@@ -7,7 +7,7 @@ import resume from "./resume.pdf"
 import menu from "./Menu.png"
 import close from "./close.png"
 import githubO from "./GitHubO.png"
-import linkedinO from "./LinkedinO.png"
+import linkedinO from "./LinkedInO.png"
 import mail from "./Envelope.png"
 export{
   logo,
