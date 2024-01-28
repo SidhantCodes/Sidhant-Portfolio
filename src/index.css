@@ -92,7 +92,7 @@ button {
   font-family: Outfit;
   /* font-size: 60px; */
   font-style: normal;
-  font-weight: 500;
+  font-weight: 800;
   line-height: normal;
   align-items: center;
 }
@@ -103,8 +103,24 @@ button {
   font-family: Outfit;
   /* font-size: 28px; */
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   line-height: normal;
+}
+.mail{
+  color: #000;
+  font-family: Outfit;
+  /* font-size: 25px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.links{
+  color: #000;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
 
 .bigtitle{
