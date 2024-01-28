@@ -8,7 +8,7 @@ const Socials = () => {
     <div className='sm:flex justify-between w-screen items-center px-12 py-12 mt-40'>
       <div className={`flex justify-center gap-20 sm:flex sm:gap-28`}>
         <a href="https://github.com/SidhantCodes" target="_blank"><motion.img whileHover={{ scale: [null, 1.1, 1.1] }} src={github} alt="github" className={`w-[30px] h-[30px] sm:w-[45px] sm:h-[45px]`} /></a>
-        <a href="https://www.linkedin.com/in/smishra0110/" target="_blank"_blank><motion.img whileHover={{ scale: [null, 1.1, 1.1] }} src={linkedin} alt="linkedin" className={`w-[30px] h-[30px] sm:w-[45px] sm:h-[45px]`} /></a>
+        <a href="https://www.linkedin.com/in/smishra0110/" target="_blank"><motion.img whileHover={{ scale: [null, 1.1, 1.1] }} src={linkedin} alt="linkedin" className={`w-[30px] h-[30px] sm:w-[45px] sm:h-[45px]`} /></a>
         <a href="https://www.instagram.com/_sidhant22/" target="_blank"><motion.img whileHover={{ scale: [null, 1.1, 1.1] }} src={instagram} alt="instagram" className={`w-[30px] h-[30px] sm:w-[45px] sm:h-[45px]`} /></a>
       </div>
 
