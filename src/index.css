@@ -24,8 +24,18 @@ button {
   scroll-behavior: smooth;
   
 }
-&::-webkit-scrollbar{
-  width: 0%;
+::-webkit-scrollbar{
+  background-color: rgba(0, 0, 0, 0.861);
+  width: 7px;
+  /* border-top-right-radius: 20px;
+  border-top-left-radius: 20px; */
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FFFBEB;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track{
+  height: 10px;
 }
 .navbar{
   color: #000;
